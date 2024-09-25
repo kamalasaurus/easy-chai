@@ -25,3 +25,6 @@ RUN pip install --upgrade pip && \
 
 # Copy the rest of the application code into the container
 COPY . .
+
+# Run the application
+CMD ["bash", "app.py"]
